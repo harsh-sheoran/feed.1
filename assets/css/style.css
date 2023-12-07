@@ -3,7 +3,7 @@
 * {
 	padding: 0;
 	margin: 0;
-	box-sizing: border-box;
+	box-sizing: border-box !important;
 	text-decoration: none !important;
 	list-style-type: none !important;
 
@@ -13,18 +13,52 @@
 	font-family: "Poppins", sans-serif;
 }
 
+:root{
+	--fs-12:12px;
+	--fs-14:14px;
+	--fs-16:16px;
+	--fs-24:24px;
+	--fs-36:36px;
+	--fs-48:48px;
+	/*font-weight*/
+	--fw-400:400;
+	--fw-500:500;
+	--fw-600:600;
+	--fw-700:700;
+}
+
+.fs-14{
+	font-size: 14px;
+}
+
+.fs-16{
+	font-size: 16px;
+}
+
+.fs-24{
+	font-size: 24px;
+}
+
+.fs-36{
+	font-size: 36;
+}
+
+.fs-48{
+	font-size: 48px;
+}
+
 
 .opc {
 	opacity: 0.6;
 }
 
 
-.ftw-500 {
+.fw-500 {
 	font-weight: 500;
 }
 
 
-.ftw-700 {
+.fw-700 {
 	font-weight: 700;
 }
 
@@ -34,12 +68,12 @@
 }
 
 
-.ftw-600 {
+.fw-600 {
 	font-weight: 600;
 }
 
 
-.ftw-400 {
+.fw-400 {
 	font-weight: 400;
 }
 
@@ -203,18 +237,15 @@
 	border: 1px solid transparent;
 }
 
-
 .log:hover {
 	color: #2c49fe;
 	background: #fff;
 	border: 1px solid;
 }
 
-
 .mt-126 {
 	margin-top: 126px;
 }
-
 
 .feed {
 	color: #000;
@@ -222,12 +253,10 @@
 	opacity: 0.6;
 }
 
-
 .john {
 	color: #000;
 	font-size: 43px;
 }
-
 
 .para1 {
 	color: #000;
@@ -235,24 +264,21 @@
 	line-height: 150%;
 }
 
-
 .following {
 	color: #000;
 	font-size: 16px;
 	line-height: 150%;
 }
 
-
 .pt-15 {
 	padding-top: 15px;
 }
-
 
 .pt-24 {
 	padding-top: 24px;
 }
 
-.row>* {
+.row> {
     flex-shrink: 0;
     width: 100%;
     padding-right: calc(var(--bs-gutter-x) * .5);
@@ -268,8 +294,6 @@
 	background: #fff;
 	box-shadow: 0px 8px 35px 0px rgba(0, 0, 0, 0.1);
 }
-
-
 
 .card2 {
 	width: 100%;
