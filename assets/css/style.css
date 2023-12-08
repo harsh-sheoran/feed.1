@@ -6,7 +6,6 @@
 	box-sizing: border-box !important;
 	text-decoration: none !important;
 	list-style-type: none !important;
-
 }
 
 .ffp {
@@ -97,6 +96,10 @@
 	font-family: "Poppins", sans-serif;
 	color: #2c49fe;
 	font-size: 28px;
+}
+
+.overflow{
+	overflow: hidden;
 }
 
 
